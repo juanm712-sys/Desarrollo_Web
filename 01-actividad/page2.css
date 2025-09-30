@@ -1,0 +1,69 @@
+.menu-superior {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px 20px;
+}
+
+.menu-superior button {
+    padding: 6px 12px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.menu-superior button:hover {
+    background-color: #e0e0e0;
+}
+
+.enlaces-centrales {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.enlaces-centrales .verde {
+    color: green;
+}
+
+.enlaces-centrales .naranja {
+    color: orange;
+}
+
+.enlaces-centrales .rojo {
+    color: red;
+}
+
+
+.pestanas {
+    display: flex;
+    border-top: 2px solid #008000;
+    border-bottom: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.pestanas div {
+    padding: 10px 20px;
+    border-right: 1px solid #ccc;
+    font-size: 0.9rem;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.pestanas div:hover {
+    background-color: #eaeaea;
+}
+
+.contenido-gris {
+    background-color: #dcdcdc;
+    margin: 0;
+    padding: 30px 20px;
+    font-size: 1rem;
+    color: #222;
+
+    height: 600px;
+    margin-right: 200px;
+    margin-left: 200px;
+}

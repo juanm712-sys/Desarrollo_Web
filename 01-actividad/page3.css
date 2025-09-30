@@ -1,0 +1,40 @@
+
+.egresados-container {
+  width: 100%;
+  background-color: white;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.contenido-egresados {
+  max-width: 800px;
+  text-align: justify;
+}
+
+.contenido-egresados h5 {
+  font-size: 0.85rem;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+.titulo-egresados {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #444;
+}
+
+.contenido-egresados p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.div-egresados{
+  background-color: #cac6c6;
+  height: 100px;
+}

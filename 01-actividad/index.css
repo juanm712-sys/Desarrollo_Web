@@ -1,0 +1,327 @@
+* {
+    margin: 0px; 
+    padding:0px;
+}
+
+header {
+    overflow: visible;
+    display: inline; 
+}
+
+a {
+    text-decoration: none; 
+}
+.header-container {
+    display: inline;
+}
+
+.line {
+    background-color: rgb(4, 118, 4);
+    height: 5px;
+}
+.navbar {
+    background-color: #f8f8f8;
+    height: auto;
+    display: flex; 
+}
+
+.navbar .ul-navbar {
+    padding: 0px; 
+    margin: 0px;    
+}
+
+.navbar .a-navbar {
+    text-decoration: none; 
+    text-align: center; 
+    font-size: 15px;
+    color: green;
+    display: inline-block;
+    padding: 10px;
+
+    border-right: solid 1px rgb(201, 197, 197);
+}
+
+.navbar .li-navbar {
+    border-bottom: solid 1px rgb(201, 197, 197);
+}
+
+
+/* Estilos para los iconos de las redes sociales */
+
+.icons { 
+    width: 200px;
+    margin-right: 10px; 
+    margin-top: 10px; 
+}
+.icons ul{
+    list-style-type: none; 
+    display: flex; 
+}
+
+.icons li {
+    background-color: lightgrey;
+    border-radius: 5px; 
+
+    height: 25px; 
+    width: 25px; 
+    margin: 1px;
+    
+    display: flex; 
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;      /* Centra verticalmente */
+}
+
+.icons a {
+    text-decoration: none;
+    color: green;  
+}
+
+
+/*Para la nevegacion y el logo*/
+#navigation { 
+    width: 100%;   
+    position:sticky; 
+    top: 0px;    
+    display: flex; 
+    background-color: white; 
+}
+
+#nav-links{
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;  
+}
+
+#nav-links a {
+    margin-right: 10px;
+    font-family:"Ubuntu";
+    font-weight: bold; 
+    
+}
+/*Para contenido principal*/
+
+.imagen{
+    max-width: 100%;
+    height: auto; 
+    width: 100%; 
+}
+
+.img-container{
+    background-color: lightblue;   
+    padding-top: 10px; 
+    padding-right: 20px; 
+    padding-left: 20px;   
+    height: 480px; 
+    display:flex; 
+}
+
+.img-right , .img-left {
+    width: 50%; 
+}
+
+.img-right{ 
+    order:2; 
+}
+
+.img-left{ 
+    height:100%;   
+    order: 1;  
+    display: flex; 
+    flex-direction: column; 
+}
+
+.img-up , .img-down {
+    height: 50%;
+    width: 100%; 
+}
+
+.img-up{
+   padding-bottom: 35px;   
+}
+.img-down {
+    display: flex;  
+}
+
+
+.img-down-right , .img-down-left {
+    width: 50%; 
+}
+
+.img-down-right {
+}
+
+.img-down-left {
+}
+
+/* News container */
+
+.news-container{ 
+    width: 100%; 
+    height: 40px;
+    padding-top: 0px; 
+}
+
+.news-container {
+    font-family:"Ubuntu"; 
+    font-size: 13px; 
+    text-align: right;
+}
+
+#h2-uno{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+#h2-dos{
+    padding-right: 10px;
+    color: orange; 
+
+}
+
+.h2-news{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.img-new-container{
+    height: 370px; 
+    width: 100%;  
+    display: flex;
+    align-items:center;
+    justify-content: space-between;  
+}
+
+.img-new{
+    height: 300px; 
+    width: 200px; 
+}
+
+#img-new-uno{
+    margin-left: 200px; 
+}
+
+#img-new-tres{
+    margin-right: 200px; 
+}
+
+
+.chanel-container {
+    margin-left: 30px; 
+    padding: 10px 0px 10px 0px;
+    font-family: "Ubuntu";
+    font-size: 15px; 
+}
+
+.img-chanel-container{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin-right: 350px;
+    margin-left:30px;  
+}
+
+.img-chanel {
+    height: 150px;
+    width: 250px; 
+}
+
+
+.container-blank {
+    width: 100%; 
+    height: 200px;
+}
+
+.container-blank-2{
+    width: 100%;
+    height: 100px; ; 
+}
+
+
+.networks{
+    color: gray; 
+    padding: 30px;
+    font-size: 20px; 
+}  
+
+/* Para los iconos */
+.links-networks{
+    padding-left: 30px; 
+    padding-bottom: 15px; 
+}
+
+.links-networks ul {
+    list-style-type: none; 
+    display: flex; 
+}
+
+
+.links-networks a {
+    margin-right: 10px; 
+    padding: 10px;
+    width: 20px; 
+    height: 20px; 
+}
+
+.facebook{
+    color: white;
+    background-color: blue; 
+    border-radius: 10px;
+}
+
+.twiter{
+    color: white;
+    background-color: lightblue; 
+    border-radius: 10px;
+}
+
+.youtube{
+
+    color: white;
+    background-color: red; 
+    border-radius: 10px;
+
+}
+
+.whatsapp{
+    color:white;
+    background-color:limegreen; 
+    border-radius: 10px; 
+}
+
+.gmail{
+    color: white;
+    background-color: black; 
+    border-radius: 10px;
+    
+}
+
+/*Para el footer*/
+footer {
+    height: 350px; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.big-footer{
+    height: 75%;
+    width: 100%;
+    background-color: lightgray;   
+    
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center; 
+}
+
+.big-footer p{
+    width: 150px;
+    margin-left: 25px; 
+    margin-right: 25px; 
+}
+
+.lite-footer {
+    text-align: center;
+    margin: 5px;
+}
+
+

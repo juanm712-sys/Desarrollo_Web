@@ -1,0 +1,82 @@
+main {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .docentes-menu {
+    background-color: #7ab51d;
+    padding: 20px;
+    color: white;
+  }
+  
+  .docentes-menu h1 {
+    margin: 0 0 15px;
+  }
+  
+  .botonera {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .botonera button {
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .botonera button:hover {
+    background-color: #dff0c6;
+  }
+  
+  .contenido-docentes {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .columna {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .tabs button {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .tabs .activo {
+    background-color: #7ab51d;
+    color: white;
+  }
+  
+  .texto h3, .texto h4 {
+    margin-top: 20px;
+    color: #4a7f12;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  .seguimiento h2 {
+    color: #4a7f12;
+  }
+  
+  .seguimiento p, .texto p {
+    line-height: 1.5;
+  }
+  
